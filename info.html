@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Info - Ranjan</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
+    <header class="bg-gray-800 text-white p-4">
+      <h1 class="text-2xl font-bold">Info</h1>
+      <nav class="mt-4">
+        <ul class="flex space-x-4 justify-center">
+          <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+          <li><a href="resume.html" class="hover:text-gray-300">Resume</a></li>
+          <li>
+            <a href="smart-contracts.html" class="hover:text-gray-300"
+              >Smart Contracts</a
+            >
+          </li>
+          <li><a href="info.html" class="hover:text-gray-300">Info</a></li>
+          <li>
+            <a href="contact.html" class="hover:text-gray-300">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="p-6 flex-grow">
+      <section class="max-w-4xl mx-auto bg-white p-6 rounded shadow">
+        <h2 class="text-xl font-bold mb-4">Blockchain Info</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Card 1 -->
+          <a
+            target="_blank"
+            href="./pages/solidity.html"
+            class="block p-4 bg-gray-200 rounded-lg shadow hover:bg-gray-300 transition"
+          >
+            <h3 class="text-lg font-semibold mb-2">Solidity Best Practices</h3>
+            <p class="text-gray-700">
+              Learn the fundamentals of Solidity and it's best practices.
+            </p>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray-800 text-white p-4 text-center">
+      <p>&copy; 2024 Ranjan</p>
+    </footer>
+  </body>
+</html>

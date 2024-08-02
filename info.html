@@ -1,51 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Info - Ranjan</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet"
-    /></head
-  >
-  <body class="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
-    <header class="bg-gray-800 text-white p-4">
-      <h1 class="text-2xl font-bold">Info</h1>
-      <nav class="mt-4">
-        <ul class="flex space-x-4 justify-center">
-          <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
-          <li><a href="web2.html" class="hover:text-gray-300">Web2</a></li>
-          <li>
-            <a href="web3.html" class="hover:text-gray-300">Web3</a>
-          </li>
-          <li><a href="info.html" class="hover:text-gray-300">Info</a></li>
-          <li>
-            <a href="contact.html" class="hover:text-gray-300">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="p-6 flex-grow">
-      <section class="max-w-4xl mx-auto bg-white p-6 rounded shadow">
-        <h2 class="text-xl font-bold mb-4">Info</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <!-- Card 1 -->
-          <!-- <a
-            target="_blank"
-            href="./pages/solidity.html"
-            class="block p-4 bg-gray-200 rounded-lg shadow hover:bg-gray-300 transition"
-          >
-            <h3 class="text-lg font-semibold mb-2">Solidity Best Practices</h3>
-            <p class="text-gray-700">
-              Learn the fundamentals of Solidity and it's best practices.
-            </p>
-          </a> -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranjan's Portfolio - Info</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-gray-300">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 shadow-md">
+    <div class="container mx-auto px-6 py-3">
+      <div class="flex items-center justify-between">
+        <div>
+          <a href="index.html" class="text-lg font-bold text-white">Ranjan's Portfolio</a>
         </div>
-      </section>
-    </main>
-    <footer class="bg-gray-800 text-white p-4 text-center">
-      <p>&copy; 2024 Ranjan</p>
-    </footer>
-  </body>
+        <div class="flex space-x-4">
+          <a href="index.html" class="text-gray-400 hover:text-white">Home</a>
+          <a href="web2-projects.html" class="text-gray-400 hover:text-white">Web2 Projects</a>
+          <a href="web3-projects.html" class="text-gray-400 hover:text-white">Web3 Projects</a>
+          <a href="info.html" class="text-gray-400 hover:text-white">Info</a>
+          <a href="contact.html" class="text-gray-400 hover:text-white">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Info Section -->
+  <section id="info" class="bg-gray-900 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-white mb-8 text-center">Info</h2>
+      <p class="text-gray-300 mb-6">This section contains additional information and resources.</p>
+
+      <!-- Linux Terminal Command -->
+      <div class="bg-gray-800 p-5 rounded-lg shadow-lg mb-8">
+        <h3 class="text-2xl font-semibold text-white mb-4">Linux Terminal Commands</h3>
+        <p class="text-gray-400 mb-4">A comprehensive guide to various Linux terminal commands, including their usage and examples.</p>
+        <a href="https://github.com/RanjanKumar93/backend_portfolio_content/blob/main/Linux_Terminal_Commands.txt" target="_blank" class="text-blue-400 hover:underline">View on GitHub</a>
+      </div>
+
+      <!-- Additional info sections can be added here -->
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
 </html>

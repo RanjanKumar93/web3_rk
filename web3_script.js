@@ -90,6 +90,12 @@ const web3_projects = [
       "A smart contract designed to securely store and manage confidential information on the blockchain.",
     link: "https://github.com/RanjanKumar93/solidity_contracts/blob/main/SecretContract.sol",
   },
+  {
+    title: "Public Voting",
+    description:
+      "A smart contract-based public voting system ensuring secure and transparent elections with real-time vote tallying.",
+    link: "https://github.com/RanjanKumar93/solidity_contracts/blob/main/PublicVoting.sol",
+  },
 ];
 
 // Generate project cards

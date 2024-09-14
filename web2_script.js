@@ -1,28 +1,28 @@
 const web2_projects = [
-  {
-    title: "Flutter Currency Converter USD to INR App",
-    description:
-      "A Flutter app that converts USD to INR in real-time, showcasing integration with external APIs and Flutter's UI capabilities.",
-    link: "https://github.com/RanjanKumar93/Flutter_CurrencyConverter_USDtoINR_App",
-  },
-  {
-    title: "Flutter State Management Counter App",
-    description:
-      "A Flutter app demonstrating state management techniques, focusing on the counter functionality and its underlying logic.",
-    link: "https://github.com/RanjanKumar93/flutter_SateManagement_counter_app",
-  },
-  {
-    title: "Flutter Screen App",
-    description:
-      "A Flutter app that showcases multiple screens and navigational features, providing a seamless user experience.",
-    link: "https://github.com/RanjanKumar93/flutter_screen_app",
-  },
-  {
-    title: "Flutter Basic Auth App",
-    description:
-      "A Flutter app that implements basic authentication using REST APIs, focusing on secure login and registration functionality.",
-    link: "https://github.com/RanjanKumar93/Flutter-BasicAuth-App",
-  },
+  // {
+  //   title: "Flutter Currency Converter USD to INR App",
+  //   description:
+  //     "A Flutter app that converts USD to INR in real-time, showcasing integration with external APIs and Flutter's UI capabilities.",
+  //   link: "https://github.com/RanjanKumar93/Flutter_CurrencyConverter_USDtoINR_App",
+  // },
+  // {
+  //   title: "Flutter State Management Counter App",
+  //   description:
+  //     "A Flutter app demonstrating state management techniques, focusing on the counter functionality and its underlying logic.",
+  //   link: "https://github.com/RanjanKumar93/flutter_SateManagement_counter_app",
+  // },
+  // {
+  //   title: "Flutter Screen App",
+  //   description:
+  //     "A Flutter app that showcases multiple screens and navigational features, providing a seamless user experience.",
+  //   link: "https://github.com/RanjanKumar93/flutter_screen_app",
+  // },
+  // {
+  //   title: "Flutter Basic Auth App",
+  //   description:
+  //     "A Flutter app that implements basic authentication using REST APIs, focusing on secure login and registration functionality.",
+  //   link: "https://github.com/RanjanKumar93/Flutter-BasicAuth-App",
+  // },
   {
     title: "My Portfolio - Ranjan (NextJS)",
     description:
@@ -53,12 +53,12 @@ const web2_projects = [
       "A Python-based bot for managing book information, automating tasks, and providing book-related services.",
     link: "https://github.com/RanjanKumar93/bookbot_python",
   },
-  {
-    title: "Flutter Weather App",
-    description:
-      "A Flutter application that provides real-time weather information using external APIs, featuring an intuitive user interface.",
-    link: "https://github.com/RanjanKumar93/flutter_weather_app",
-  },
+  // {
+  //   title: "Flutter Weather App",
+  //   description:
+  //     "A Flutter application that provides real-time weather information using external APIs, featuring an intuitive user interface.",
+  //   link: "https://github.com/RanjanKumar93/flutter_weather_app",
+  // },
   {
     title: "Card Game (Python)",
     description:
@@ -83,18 +83,18 @@ const web2_projects = [
       "A collection of Python challenges and exercises that demonstrate problem-solving and algorithmic skills.",
     link: "https://github.com/RanjanKumar93/python_challenges/blob/main/pythoonn_challenges.py",
   },
-  {
-    title: "Flutter Counter App using BLoC",
-    description:
-      "A Flutter app demonstrating state management using the BLoC pattern, with a simple counter functionality.",
-    link: "https://github.com/RanjanKumar93/flutter_counter_app_using_bloc",
-  },
-  {
-    title: "Flutter CRUD App",
-    description:
-      "A Flutter app that implements basic CRUD (Create, Read, Update, Delete) operations using a local database.",
-    link: "https://github.com/RanjanKumar93/flutter_crud_app",
-  },
+  // {
+  //   title: "Flutter Counter App using BLoC",
+  //   description:
+  //     "A Flutter app demonstrating state management using the BLoC pattern, with a simple counter functionality.",
+  //   link: "https://github.com/RanjanKumar93/flutter_counter_app_using_bloc",
+  // },
+  // {
+  //   title: "Flutter CRUD App",
+  //   description:
+  //     "A Flutter app that implements basic CRUD (Create, Read, Update, Delete) operations using a local database.",
+  //   link: "https://github.com/RanjanKumar93/flutter_crud_app",
+  // },
   {
     title: "Astroid Game (Python)",
     description:
